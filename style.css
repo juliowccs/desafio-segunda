@@ -1,0 +1,94 @@
+:root {
+    --background-color: #000000;
+    --white: #fff;
+    --grey: #353535;
+    --light-grey: #C5C2C2;
+    --green: #2FB23C;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.background-color-view {
+    background-color: var(--background-color);
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.container .image {
+    width: 360px;
+    height: 278px;
+}
+
+.container .input-email {
+    display: flex;
+    flex-direction: column;
+}
+.container .input-email label {
+    color: #fff;
+}
+.container .input-email input {
+    border: 2px solid var(--light-grey);
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: var(--grey);
+    color: var(--white);
+    padding: 10px;
+    width: 466px;
+    height: 57px;
+}
+
+.container .input-password {
+    display: flex;
+    flex-direction: column;
+}
+.container .input-password label {
+    color: #fff;
+}
+.container .input-password input {
+    border: 2px solid var(--light-grey);
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: var(--grey);
+    color: var(--white);
+    padding: 10px;
+    width: 466px;
+    height: 57px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .submit .submit-button {
+    border: none;
+    border-radius: 10px;
+    background-color: #2FB23C;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    width: 191px;
+    height: 67px;
+}
